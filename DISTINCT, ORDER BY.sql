@@ -1,4 +1,4 @@
-t-- check out teachers table
+-- check out teachers table
 SELECT * FROM teachers;
 
 -- return lsat_name, first_name, salary
