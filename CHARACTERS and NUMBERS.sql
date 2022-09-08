@@ -1,6 +1,6 @@
 -----	CHARACTERS	-----
 
--- char(n) : doesn't use the sempty space
+-- char(n) : doesn't use the empty space
 -- varchar(n): uses the empty space (usually the best option just need the apropriate n value)
 -- text : doesn't use the empty space
 --e.g., :
