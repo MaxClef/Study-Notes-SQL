@@ -16,7 +16,7 @@ SELECT unnest(percentile_cont(array[.25, .5, .75])
 FROM us_counties_2010;
 
 -- return 
--- 1. model of population
+-- 1. mode of population
 SELECT mode() WITHIN GROUP( ORDER BY p0010001 ) 
 	AS population_mode
 FROM us_counties_2010;
