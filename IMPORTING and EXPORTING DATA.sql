@@ -106,7 +106,7 @@ CREATE TABLE us_counties_2010 (
     h0010003 integer    -- Vacant
 );
 
--- checking the tabel
+-- checking the table
 SELECT * from us_counties_2010;
 
 -- importing the data
