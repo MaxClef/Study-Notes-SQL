@@ -3,7 +3,8 @@
 TABLE us_counties_2000 dictionary:
 
 geo_name varchar(90),              -- County/state name,
-    state_us_abbreviation varchar(2),  -- State/U.S. abbreviation
+
+    state_us_abbreviation varchar(2),  -- State/U.S. abbreviation    
     state_fips varchar(2),             -- State FIPS code
     county_fips varchar(3),            -- County code
     p0010001 integer,                  -- Total population
