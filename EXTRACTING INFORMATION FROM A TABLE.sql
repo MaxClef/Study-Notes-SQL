@@ -251,7 +251,7 @@ ORDER BY state_abbreviation;
 ---	EXERCISES 2.	---
 
 -- return:
--- all the data that is missing in one or the other table
+-- data that is missing in 2009 and not 2014, and vice versa
 SELECT *
 FROM pls_fy2009_pupld09a AS data_2009 
 	 FULL OUTER JOIN pls_fy2014_pupld14a AS data_2014 
